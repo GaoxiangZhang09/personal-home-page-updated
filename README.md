@@ -28,6 +28,14 @@ Class Link: https://johnguerra.co/classes/webDevelopment_fall_2022/
 </ul>
 
 <h2>Screenshot:</h2>
+<img width="1680" alt="Screen Shot 2022-09-26 at 1 51 08 AM" src="https://user-images.githubusercontent.com/63666127/192367198-bd682fac-ceaf-4552-a1be-d1144424878f.png">
+<img width="1680" alt="Screen Shot 2022-09-26 at 12 31 38 PM" src="https://user-images.githubusercontent.com/63666127/192367248-eb4dffc7-dd16-428b-ad08-9990ea497c14.png">
+<img width="1678" alt="Screen Shot 2022-09-26 at 12 31 51 PM" src="https://user-images.githubusercontent.com/63666127/192367306-90a5e6e0-9c0a-4f14-89b4-65df16b5da96.png">
+<img width="1680" alt="Screen Shot 2022-09-26 at 12 32 07 PM" src="https://user-images.githubusercontent.com/63666127/192367336-7bc4482e-e75b-4884-ae96-44490915426d.png">
+<img width="1680" alt="Screen Shot 2022-09-26 at 12 32 17 PM" src="https://user-images.githubusercontent.com/63666127/192367408-0e880e11-1642-4732-94da-b7e3f05bed06.png">
+
+
+
 
 <h2>Tech Requirements:</h2>
 <ul>
@@ -38,6 +46,7 @@ Class Link: https://johnguerra.co/classes/webDevelopment_fall_2022/
 </ul>
 
 <h2>Video Demonstration:</h2>
+<p>https://youtu.be/Zm6bMMiy2aM</p>
 
 <h2>Instructions to Build:</h2>
 <ul>
