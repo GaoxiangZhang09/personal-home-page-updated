@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EAF6F6;
+    position: relative;
+    min-height: 100%;
+}
+
+main{
+    padding-bottom: 100px;
+    overflow: auto;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #3a3a3a;
+    display: inline-block;
+}
+
+li a::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: #c4c4f7;
+    transition: all .5s;
+}
+
+li a:hover::after{
+    width: 100%;
+}
+
+.flexbox-container{
+    display: flex;
+    height: 80vh;
+    justify-content: space-around;
+}
+
+.flexbox-item{
+    height:auto;
+    position: relative;
+    margin: 10px;
+}
+
+#flexbox-item-1{
+    width: 45%;
+}
+
+#flexbox-item-2{
+    width: 55%;
+}
+
+#flexbox-item-1>h1,
+ #flexbox-item-1>h2,
+ #flexbox-item-1>p {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+#flexbox-item-1>h1{
+    font-size: 5em;
+    margin-top: 250px;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#flexbox-item-1>h2{
+    font-size: 2.5em;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+#flexbox-item-1>p{
+    margin: 10px auto;
+    font-size: 2em;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#flexbox-item-2>img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto 10px 150px;
+}
+
+footer{
+    text-align: center;
+    background-color: #0D8A6E;
+    color: #EAF6F6;
+    height: 70px;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer>p{
+    display: inline-block;
+    margin: auto 30px;
+}
+
+.grid-container{
+    display: grid;
+    height: 80vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap:10px;
+    grid-column-gap: 10px;
+}
+
+.grid-item-1>img{
+    width:34%;
+    margin-top: 2em;
+    margin-left: 15em;
+}
+
+.grid-item-2>h1{
+    margin: 40px auto 40px 10px;
+    font-size: 3em;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.grid-item-2>h2{
+    font-size: 2.5em;
+    margin: 20px auto 10px 10px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.grid-item-2>p{
+    font-size: 2em;
+    margin: 20px auto 10px 10px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+.grid-item-3>h1{
+    margin: 40px auto 40px 120px;
+    font-size: 3em;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.grid-item-3>h2{
+    font-size: 2.5em;
+    margin: 20px auto 10px 445px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.grid-item-3>p{
+    font-size: 2em;
+    margin: 20px auto 10px 465px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+.grid-item-4>img{
+    width:40%;
+    margin-top: 0;
+    margin-left: 10em;
+}
+
+.table{
+    margin-top: 20px;
+}
+
+.container>h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.card-group{
+    padding-bottom: 30px;
+}
+
+.card{
+    width: 30%;
+    height: 10em;
+    align-items: center;
+    background-color: #42D0B0;
+}
+
+.btn-outline-secondary{
+    margin-top: 3em;
+    margin-left: 57%;
+}
+
+.row{
+    height: 10em;
+    margin-bottom: 2em;
+}
+
+.col-10{
+    margin: 1em auto 1em auto;
+}
+
+.container>h1{
+    margin-left: 40%;
+    font-size: 4em;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 2em;
+}
+
+#skill-first-h1{
+    margin-left: 25%;
+}
+
+.col-4>h1{
+    margin-top: 4em;
+    margin-left: 3em;
+}
+
+.offset-2>img{
+    border-radius: 30px;
+}
+
+.offset-2>img:hover{
+    transition: transform 0.5s;
+    transform: scale(1.25);
+}
+
+.timeline{
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 3em 6em;
+    position: relative;
+    display: inline-block;
+}
+
+.timeline ul{
+    list-style: none;
+}
+
+.timeline ul li{
+    padding: 20px;
+    background-color: #25D3AB;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.timeline-content h1{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.classes-h1{
+    font-size: 4em;
+    margin: 10px auto 50px 10em;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.classes-h2{
+    margin-left: 5em;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+#classes-h2{
+    margin-left: 80%;
+}
+
+#classes-h2:hover{
+    color: red;
+    font-size:300%;
+}
+
+.btn-outline-primary{
+    margin-left: 52em;
+}
+
+#greeting-1{
+    font-size: 3em;
+    margin-left: 15em;
+    margin-bottom: 2em;
+}
