@@ -3,7 +3,7 @@ CS5610 Project 1 - Personal Home Page
 
 Author: Chun-Wei Tseng
 
-Link to Home Page: 
+Link to Home Page: https://chun-wei-tseng.github.io/personal-home-page-updated/index.html
 
 Class Link: https://johnguerra.co/classes/webDevelopment_fall_2022/
 
@@ -30,6 +30,12 @@ Class Link: https://johnguerra.co/classes/webDevelopment_fall_2022/
 <h2>Screenshot:</h2>
 
 <h2>Tech Requirements:</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Bootstrap</li>
+</ul>
 
 <h2>Video Demonstration:</h2>
 
